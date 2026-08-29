@@ -7,7 +7,7 @@ The package is intentionally conservative.  It does **not** claim to replace a c
 ## Files
 
 ```text
-Phase Trace PoC/
+phase-trace-poc/
 ├── README.md
 ├── requirements.txt
 ├── src/
@@ -35,15 +35,15 @@ Phase Trace PoC/
 Run from the workspace root:
 
 ```bash
-python "Phase Trace PoC/src/known_tech_comparison.py"
-python "Phase Trace PoC/src/comm_pll_cycle_slip_comparison.py"
-python "Phase Trace PoC/src/gps_phase_tracking_comparison.py"
+python src/known_tech_comparison.py
+python src/comm_pll_cycle_slip_comparison.py
+python src/gps_phase_tracking_comparison.py
 ```
 
 The script writes all outputs into:
 
 ```text
-Phase Trace PoC/outputs/
+outputs/
 ```
 
 ## What Is Compared
@@ -179,7 +179,7 @@ Out-of-scope items include satellite orbit errors, ionospheric/tropospheric dela
 Run:
 
 ```bash
-python "Phase Trace PoC/src/gps_phase_tracking_comparison.py"
+python src/gps_phase_tracking_comparison.py
 ```
 
 Generated figures:
