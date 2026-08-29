@@ -6,10 +6,10 @@ common phase dynamics, can a phase-trace fallback observable reduce cycle-slip
 risk compared with simple carrier tracking references?
 
 Run from the workspace root:
-    python Frequency/src/comm_pll_cycle_slip_comparison.py
+    python src/comm_pll_cycle_slip_comparison.py
 
 Outputs are written to:
-    Frequency/outputs/
+    outputs/
 """
 
 from __future__ import annotations

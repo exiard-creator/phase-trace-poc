@@ -5,10 +5,10 @@ small, reproducible comparison between known low-order communication baselines
 and a mirror-subcarrier phase-trace fallback model under common phase rotation.
 
 Run from the workspace root:
-    python Frequency/src/known_tech_comparison.py
+    python src/known_tech_comparison.py
 
 Outputs are written to:
-    Frequency/outputs/
+    outputs/
 """
 
 from __future__ import annotations

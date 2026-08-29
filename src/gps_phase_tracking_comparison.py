@@ -5,13 +5,13 @@ It compares simple known GNSS receiver observables with a phase-trace fallback
 style observable under weak-signal and high-dynamics stress.
 
 Run from the workspace root:
-    python Frequency/src/gps_phase_tracking_comparison.py
+    python src/gps_phase_tracking_comparison.py
 
 Outputs:
-    Frequency/outputs/gps_phase_rmse_comparison.png
-    Frequency/outputs/gps_outage_comparison.png
-    Frequency/outputs/gps_phase_tracking_results.json
-    Frequency/outputs/gps_phase_tracking_summary.md
+    outputs/gps_phase_rmse_comparison.png
+    outputs/gps_outage_comparison.png
+    outputs/gps_phase_tracking_results.json
+    outputs/gps_phase_tracking_summary.md
 """
 
 from __future__ import annotations
